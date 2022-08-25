@@ -1,0 +1,25 @@
+[33mcommit a504968121fda27a905b627f6c5ce0184a7617c8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: czarframe <cesaragstincs@gmail.com>
+Date:   Thu Aug 25 14:40:44 2022 -0300
+
+    Início da implementação das classes:
+    git reset
+    git status
+
+[33mcommit a1933651459434f4df9231e325a1c21f1988b36a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: czarframe <cesaragstincs@gmail.com>
+Date:   Thu Aug 25 14:30:26 2022 -0300
+
+    Primeira classe: Position
+
+[33mcommit 51379680caf6f9fbf937c045a42c8a86f5e5a837[m
+Author: czarframe <cesaragstincs@gmail.com>
+Date:   Thu Aug 25 14:26:16 2022 -0300
+
+    Projeto criado
+
+[33mcommit 9ac491c199a519ef9d6958b72754f1dea45174c5[m
+Author: Cesar Augusto <93220441+czarframe@users.noreply.github.com>
+Date:   Thu Aug 25 14:25:03 2022 -0300
+
+    Initial commit
