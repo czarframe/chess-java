@@ -21,7 +21,6 @@ public class Bishop extends ChessPiece {
 
         Position p = new Position(0, 0);
 
-        // Noroeste
         p.setValues(position.getRow() - 1, position.getColumn() - 1);
         while (getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
                 mat[p.getRow()][p.getColumn()] = true;
@@ -31,7 +30,6 @@ public class Bishop extends ChessPiece {
                 mat[p.getRow()][p.getColumn()] = true;
         }
 
-        // Nordeste
         p.setValues(position.getRow() - 1, position.getColumn() + 1);
         while (getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
                 mat[p.getRow()][p.getColumn()] = true;
@@ -41,7 +39,6 @@ public class Bishop extends ChessPiece {
                 mat[p.getRow()][p.getColumn()] = true;
         }
 
-        // Sudeste
         p.setValues(position.getRow() + 1, position.getColumn() + 1);
         while (getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
                 mat[p.getRow()][p.getColumn()] = true;
@@ -51,7 +48,6 @@ public class Bishop extends ChessPiece {
                 mat[p.getRow()][p.getColumn()] = true;
         }
 
-        // Sudoeste
         p.setValues(position.getRow() + 1, position.getColumn() - 1);
         while (getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
                 mat[p.getRow()][p.getColumn()] = true;
